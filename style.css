@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('img.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+  
+  .countdown-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px palevioletred;
+  }
+  
+  .countdown-time {
+    font-size: 36px;
+    font-weight: bold;
+    color: purple;
+  }
+  
+  .countdown-time span {
+    margin: 0 5px;
+  }
+
+  .countdown-time #days {
+    font-size: 48px;
+    font-weight: bold;
+    color: lightskyblue;
+  }
+  
+  .countdown-time #hours {
+    font-size: 48px;
+    font-weight: bold;
+    color: lightgreen;
+  }
+
+  .countdown-time #minutes {
+    font-size: 48px;
+    font-weight: bold;
+    color: lightsalmon;
+  }
+
+  .countdown-time #seconds {
+    font-size: 48px;
+    font-weight: bold;
+    color: lightpink;
+  }
+
